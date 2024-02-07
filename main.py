@@ -31,7 +31,7 @@ def read_item(item_id: int, query_param: str = None):
     return {"item_id": item_id, "query_param": query_param}
 
 origins = [
-  "https://localhost:3000",
+  "https://re-ranking-search-front.vercel.app/",
 ]
 
 app.add_middleware(
