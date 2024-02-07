@@ -49,4 +49,4 @@ if __name__ == "__main__":
     import uvicorn
     # uvicornを使用してサーバーを起動
     # main ファイルの中で直接起動するときに使います
-    uvicorn.run("main:app", host="172.19.0.4", port=8000, reload=True)
+    uvicorn.run("main:app", host="172.0.0.1", port=4500, reload=True)
